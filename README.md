@@ -4,7 +4,10 @@ AWS AI and Machine Learning Hands-on Workshop
 ### Launch EC2 instance using the deep learning AMI
 
 1. Create EC2 IAM role for the workshop as described [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#create-iam-role). We will apply permission policies as documented in each notebook
-2. Launch EC2 Instance using the Deep Learning AMI (Ubuntu) Version 8.0 (ami-dff741a0) in us-east-1, US East (N. Virginia) (c4.xlarge - $0.199/hour) http://amzn.to/2j3FdOZ
+2. Launch EC2 Instance using the Deep Learning AMI
+    * Region: us-east-1, US East (N. Virginia)
+    * AMI: Deep Learning AMI (Ubuntu) Version 8.0 (ami-dff741a0)
+    * Instance Type: c4.xlarge ($0.199/hour, http://amzn.to/2j3FdOZ)
 3. Connect via SSH and tunnel port 8888:
     * Linux, Mac:
         - `ssh -i user.pem -L 8888:localhost:8888 ubuntu@ec2-ip-ip-ip-ip.region.compute.amazonaws.com`
