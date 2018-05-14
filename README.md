@@ -1,9 +1,10 @@
-# rekognition-workshop
-Rekognition Workshop
+# AI&ML Workshop
+AWS AI and Machine Learning Workshop
 
 ### Content
 
-[Amazon Rekognition Demo Notebook](Notebooks/Rekognition_Workshop.ipynb)
+[Amazon Polly and Lex Notebook](Notebooks/Polly_Lex_Workshop.ipynb)
+[Amazon Rekognition Notebook](Notebooks/Rekognition_Workshop.ipynb)
 
 ### Launch EC2 instance using the deep learning AMI
 
