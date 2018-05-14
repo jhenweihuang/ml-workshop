@@ -1,5 +1,5 @@
-# AI&ML Workshop
-AWS AI and Machine Learning Workshop
+# AI&ML Hands-on Workshop
+AWS AI and Machine Learning Hands-on Workshop
 
 ### Content
 
@@ -23,5 +23,7 @@ AWS AI and Machine Learning Workshop
 5. Start jupyter notebook: `jupyter notebook`
 6. Get the login url with token
     * look for `http://localhost:8888/?token=<your_login_token>`
-7. Open notebook (Notebooks/Rekognition_Workshop.ipynb)
+7. Open notebook 
+    * (Notebooks/Polly_Lex_Workshop.ipynb)
+    * (Notebooks/Rekognition_Workshop.ipynb)
 8. Follow steps in notebook
