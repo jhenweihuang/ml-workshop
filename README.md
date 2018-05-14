@@ -1,11 +1,6 @@
 # AI&ML Hands-on Workshop
 AWS AI and Machine Learning Hands-on Workshop
 
-### Content
-
-[Amazon Polly and Lex Notebook](Notebooks/Polly_Lex_Workshop.ipynb)
-[Amazon Rekognition Notebook](Notebooks/Rekognition_Workshop.ipynb)
-
 ### Launch EC2 instance using the deep learning AMI
 
 1. Create EC2 IAM role for the workshop as described [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#create-iam-role). We will apply permission policies as documented in each notebook
@@ -24,6 +19,6 @@ AWS AI and Machine Learning Hands-on Workshop
 6. Get the login url with token
     * look for `http://localhost:8888/?token=<your_login_token>`
 7. Open notebook 
-    * (Notebooks/Polly_Lex_Workshop.ipynb)
-    * (Notebooks/Rekognition_Workshop.ipynb)
+    * [Amazon Polly and Lex Notebook](Notebooks/Polly_Lex_Workshop.ipynb)
+    * [Amazon Rekognition Notebook](Notebooks/Rekognition_Workshop.ipynb)
 8. Follow steps in notebook
