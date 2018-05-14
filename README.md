@@ -14,8 +14,10 @@ AWS AI and Machine Learning Hands-on Workshop
         - Expand Connection and choose Auth, select your .ppk file
         - Expand Connection > SSH, choose Tunnels, specify Source Port: `8888`, Destination: `localhost:8888`
         - Choose Add and Open
-4. Clone rekognition-workshop github repository `git clone https://github.com/jhenweihuang/rekognition-workshop.git`
-5. Start jupyter notebook: `jupyter notebook`
+4. Clone rekognition-workshop github repository
+    * `git clone https://github.com/jhenweihuang/rekognition-workshop.git`
+5. Start jupyter notebook
+    * `jupyter notebook`
 6. Get the login url with token
     * look for `http://localhost:8888/?token=<your_login_token>`
 7. Open notebook 
