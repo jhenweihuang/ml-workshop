@@ -26,6 +26,6 @@ AWS AI and Machine Learning Hands-on Workshop
 6. Get the login url with token
     * look for `http://localhost:8888/?token=<your_login_token>`
 7. Open notebook 
-    * [Amazon Polly and Lex Notebook](Notebooks/Polly_Lex_Workshop.ipynb)
+    * [Amazon Polly Notebook](Notebooks/Polly_Workshop.ipynb)
     * [Amazon Rekognition Notebook](Notebooks/Rekognition_Workshop.ipynb)
 8. Follow steps in notebook
