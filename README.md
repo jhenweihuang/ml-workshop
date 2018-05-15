@@ -29,3 +29,4 @@ AWS AI and Machine Learning Hands-on Workshop
     * [Amazon Polly Notebook](Notebooks/Polly_Workshop.ipynb)
     * [Amazon Rekognition Notebook](Notebooks/Rekognition_Workshop.ipynb)
 8. Follow steps in notebook
+9. Delete services after workshop
