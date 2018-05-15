@@ -3,7 +3,7 @@ AWS AI and Machine Learning Hands-on Workshop
 
 ### Launch EC2 instance using the deep learning AMI
 
-1. Create EC2 IAM role for the workshop as described [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#create-iam-role). We will apply permission policies as documented in each notebook
+1. Create EC2 IAM role for the workshop as described [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#create-iam-role). Assign policy "AdministratorAccess" to this role for workshop. Remember to elete this role after practice.
 2. Launch EC2 Instance using the Deep Learning AMI
     * Region: us-east-1, US East (N. Virginia)
     * AMI: Deep Learning AMI (Ubuntu) Version 8.0 (ami-dff741a0)
@@ -18,7 +18,7 @@ AWS AI and Machine Learning Hands-on Workshop
         - Expand Connection > SSH, choose Tunnels, specify Source Port: `8888`, Destination: `localhost:8888`
         - Choose Add and Open
 4. Clone rekognition-workshop github repository
-    * `git clone https://github.com/jhenweihuang/rekognition-workshop.git`
+    * `git clone https://github.com/jhenweihuang/ml-workshop.git`
 5. Start jupyter notebook
     * `jupyter notebook`
 6. Get the login url with token
